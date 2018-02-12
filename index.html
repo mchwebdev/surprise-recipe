@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+  <title>Surprise recipe</title>
+</head>
+<body>
+  <div id="containerHome">
+    <div id="home">
+      <div class="title">
+        Smoothie recipe generator
+      </div>
+      <div class="generateBtn">
+        <a href="#containerRecipe" id="submitBtn">Generate smoothie</a>
+      </div>
+    </div>
+  </div>
+  <div id="containerRecipe">
+    <div id="recipe">
+      <div class="recipeTitle">
+        <h1>Your smoothie recipe</h1>
+      </div>
+      <div class="generatedRecipe">
+        <p id="recipeContent"></p>
+      </div>
+      <div class="generateBtnBottom">
+        <a href="#containerRecipe" id="submitBtnBottom">Generate smoothie</a>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
