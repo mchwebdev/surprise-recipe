@@ -77,11 +77,8 @@ body, html {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-line-pack: center;
-  align-content: center;
   font-family: 'Amatic SC', cursive;
   font-weight: 500;
-  width: 100%;
   color: #000;
   font-size: 4em;
   letter-spacing: 8px;
@@ -91,6 +88,8 @@ body, html {
 
 #home {
   height: 100%;
+  width: 100%;
+  padding: 20% 0 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -99,11 +98,12 @@ body, html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 #recipe {
   height: 100%;
+  width: 100%;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
@@ -115,21 +115,21 @@ body, html {
 }
 
 .title {
-  width: 100%;
-  height: 10%;
-  padding-top: 22%;
-  margin-right: 10%;
+  width: 80%;
+  height: 15%;
+  /* padding-top: 22%; */
+  /* padding: 0 0 0 5em; */
 }
 
 .generateBtn {
-  width: 100%;
-  height: 15%;
-  margin-right: 40%;
+  width: 80%;
+  height: 10%;
+  /* padding: 0 0 0 5em; */
 }
 
 .generateBtnBottom {
   width: 45%;
-  height: 15%;
+  height: 10%;
   margin-right: 0;
   text-align: center;
 }
@@ -177,7 +177,7 @@ body, html {
 #recipeContent hr {
   color: #000;
   background-color: #000;
-  border: 0.3px solid #000;
+  border: 0 solid #000;
   border-radius: 10px;
   height: 1px;
   width: 40%;
